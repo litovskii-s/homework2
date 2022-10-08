@@ -1,0 +1,214 @@
+:root {
+    --brand-color: #2196F3;
+    --logo-color: #000000; 
+    --background-color: #FFFFFF;
+    --header-color: #212121;
+    --background-color-title: #2F303A;
+    --main-button-color: #188CE8;
+    --team-background-color: #F5F4FA;
+    --text-color: #757575;
+  }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+  }
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: var(--logo-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.logo-web {
+    color: var(--brand-color);
+}
+.navigation-link {
+    color: var(--header-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+.navigation-link:hover {
+    color:var(--brand-color);
+}
+.navigation-link:focus {
+    color: var(--brand-color);
+}
+.navigation-link-main {
+    color: var(--brand-color);
+}
+.contact-connection {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+.contact-connection:hover {
+    color: var(--brand-color);
+}
+.contact-connection:focus {
+    color: var(--brand-color);
+}
+.main {
+    background-color: var(--background-color-title);
+}
+.main-title {
+    color: var(--background-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.main-button {
+    background-color: var(--brand-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--background-color);
+    letter-spacing: 0.06em;
+    line-height: 1.87;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+}
+.main-button:hover {
+    background-color: var(--main-button-color); 
+}
+.main-button:focus {
+    background-color: var(--main-button-color); 
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.list-special__header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: var(--header-color);
+}
+.list-special__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text-color);
+}
+.work-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--header-color);
+}
+.team {
+    background-color: var(--team-background-color)
+}
+.team-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--header-color);
+}
+.list-team {
+    background-color: var(--background-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-name {
+    font-weight: 500;
+    line-height: 1.18;
+    color: var(--header-color);
+}
+.team-post {
+    line-height: 1.18;
+    color: var(--text-color);
+}
+.footer {
+    background-color:var(--background-color-title);
+}
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    color: var(--background-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.list-address {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+}
+.list-address:hover {
+    color: var(--brand-color);
+}
+.list-address:focus {
+    color: var(--brand-color);
+}
+.list-address-city {
+    color: var(--background-color);
+}
+.list-address-city:hover {
+    color: var(--brand-color);
+}
+.list-address-city:focus {
+    color: var(--brand-color);
+}
+.choice_button {
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--header-color);
+    border: 0;
+    font-family: inherit;
+}
+.button-all { 
+    background-color: var(--brand-color);
+    border: 0;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--background-color);
+    font-family: inherit;
+}
+.choice_button:hover {
+     background-color: var(--brand-color);
+     color: var(--background-color);
+     cursor: pointer;
+}
+.choice_button:focus {
+    background-color: var(--brand-color);
+    color: var(--background-color);
+    cursor: pointer;
+}
+.list-main-header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--header-color);
+}
+.list-main-text {
+    line-height: 1.87;
+    color: var(--text-color);
+}
